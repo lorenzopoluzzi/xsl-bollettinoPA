@@ -7,3 +7,5 @@ Al suo interno viene usata la libreria di [Apache-FOP](https://xmlgraphics.apach
 Una volta eseguito il clone del progetto basta importarlo su qualsiasi IDE (Netbeans, Eclipse, IntelliJ ecc..) e inserire nel classpath del progetto le librerie che sono dentro alla foder _lib_
 
 Una volta configurata basta fare il _Run_ dell'applicazione e verrà creato il file **bollettino.pdf** nella _root_ del progetto. 
+
+![Anteprima PDF](https://github.com/lorenzopoluzzi/xsl-bollettinoPA/blob/main/loghi/Anteprima.png)

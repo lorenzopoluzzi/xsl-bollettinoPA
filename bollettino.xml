@@ -1,37 +1,26 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<invoice>
-  <invoicenumber>INT-3343</invoicenumber>
-  <invoicedate>2020-01-31</invoicedate>
-  <purchaseordernumber>1949/2020</purchaseordernumber>
-  <duedate>2020-02-14</duedate>
-  <address type="shipto">
-    <name>Road Runner</name>
-    <street>1 Desert road east</street>
-    <zipcode>2014</zipcode>
-    <city>SW Am. desert</city>
-  </address>
-  <address type="billto">
-    <name>Wile E. Coyote</name>
-    <street>1 Desert road west</street>
-    <zipcode>1949</zipcode>
-    <city>SW Am. desert</city>
-  </address>
-  <lineitems>
-    <lineitem>
-      <quantity>20</quantity>
-      <description>Explosive tennis balls</description>
-      <unitprice>$5.00</unitprice>
-      <amount>$100.00</amount>
-    </lineitem>
-    <lineitem>
-      <quantity>100</quantity>
-      <description>Earthquake pills</description>
-      <unitprice>$0.50</unitprice>
-      <amount>$50.00</amount>
-    </lineitem>
-  </lineitems>
-  <subtotal>$150.00</subtotal>
-  <tax>$7.50</tax>
-  <total>$157.50</total>
-  <terms>15 days</terms>
-</invoice>
+<bollettino>
+  <logo_ente></logo_ente>
+  <oggetto_del_pagamento>oggetto_del_pagamento</oggetto_del_pagamento>
+  <ente>
+	<ente_creditore>ente_creditore</ente_creditore>
+	<settore_ente>settore_ente</settore_ente>
+	<info_ente>info_ente</info_ente>
+	<cf_ente>cf_ente</cf_ente>
+  </ente>
+  <destinatario>
+	<nome_cognome_destinatario>nome_cognome_destinatario</nome_cognome_destinatario>
+	<indirizzo_destinatario>indirizzo_destinatario</indirizzo_destinatario>
+	<cf_destinatario>cf_destinatario</cf_destinatario>
+  </destinatario>
+  <pagamento_rateale></pagamento_rateale>
+  <alla_rata>alla_rata</alla_rata>
+  <importo>importo</importo>
+  <codice_avviso>codice_avviso</codice_avviso>
+  <cbill>cbill</cbill>
+  <data>data</data>
+  <numero_cc_postale>numero_cc_postale</numero_cc_postale>
+  <intestatario_conto_corrente_postale>intestatario_conto_corrente_postale</intestatario_conto_corrente_postale>
+  <qr_code>qr_code</qr_code>
+  <data_matrix>data_matrix</data_matrix>
+</bollettino>

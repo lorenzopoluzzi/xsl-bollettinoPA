@@ -1,0 +1,35 @@
+<fop version="1.0">
+
+  <!-- Strict user configuration -->
+  <strict-configuration>true</strict-configuration>
+
+  <!-- Strict FO validation -->
+  <strict-validation>true</strict-validation>
+
+  <!-- Base URL for resolving relative URLs -->
+  <base>./</base>
+
+
+  <!-- etc. etc..... -->
+  <renderers>
+    <renderer mime="application/pdf">
+      <fonts>
+        <font kerning="yes" embed-url="fonts\TitilliumWeb-Black.ttf" embedding-mode="subset">
+          <font-triplet name="Titillium Web Black" style="normal" weight="normal"/>
+        </font>
+        <font kerning="yes" embed-url="fonts\TitilliumWeb-Bold.ttf" embedding-mode="subset">
+          <font-triplet name="Titillium Web" style="normal" weight="bold"/>
+        </font>
+        <font kerning="yes" embed-url="fonts\TitilliumWeb-Regular.ttf" embedding-mode="subset">
+          <font-triplet name="Titillium Web" style="normal" weight="normal"/>
+        </font>        
+        <font kerning="yes" embed-url="fonts\RobotoMono-Bold.ttf" embedding-mode="subset">
+          <font-triplet name="Roboto Mono" style="normal" weight="bold"/>
+        </font>
+        <font kerning="yes" embed-url="fonts\RobotoMono-Regular.ttf" embedding-mode="subset">
+          <font-triplet name="Roboto Mono" style="normal" weight="normal"/>
+        </font>        
+      </fonts>
+    </renderer>
+  </renderers>
+</fop>

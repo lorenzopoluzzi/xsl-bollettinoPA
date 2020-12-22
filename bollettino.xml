@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <bollettino>
-  <logo_ente></logo_ente>
-  <oggetto_del_pagamento>oggetto_del_pagamento</oggetto_del_pagamento>
-  <ente>
-	<ente_creditore>ente_creditore</ente_creditore>
-	<settore_ente>settore_ente</settore_ente>
-	<info_ente>info_ente</info_ente>
-	<cf_ente>cf_ente</cf_ente>
-  </ente>
-  <destinatario>
-	<nome_cognome_destinatario>nome_cognome_destinatario</nome_cognome_destinatario>
+	<logo_ente/>
+	<oggetto_del_pagamento>Diritti di copia</oggetto_del_pagamento>
+	<ente_creditore>beneficiarioDescrizione</ente_creditore>
+	<settore_ente>beneficiarioSettore</settore_ente>
+	<info_ente>beneficiarioInfo</info_ente>
+	<cf_ente>12345678987</cf_ente>
+	<nome_cognome_destinatario>AVVOCATO2 AVVOCATO2</nome_cognome_destinatario>
 	<indirizzo_destinatario>indirizzo_destinatario</indirizzo_destinatario>
-	<cf_destinatario>cf_destinatario</cf_destinatario>
-  </destinatario>
-  <pagamento_rateale></pagamento_rateale>
-  <alla_rata>alla_rata</alla_rata>
-  <importo>importo</importo>
-  <codice_avviso>codice_avviso</codice_avviso>
-  <cbill>cbill</cbill>
-  <data>data</data>
-  <numero_cc_postale>numero_cc_postale</numero_cc_postale>
-  <intestatario_conto_corrente_postale>intestatario_conto_corrente_postale</intestatario_conto_corrente_postale>
-  <qr_code>qr_code</qr_code>
-  <data_matrix>data_matrix</data_matrix>
+	<cf_destinatario> VVCVCT56A01A944F</cf_destinatario>
+	<pagamento_rateale/>
+	<rate/>
+	<alla_rata/>
+	<importo>100,00</importo>
+	<codice_avviso>330160855833753289</codice_avviso>
+	<cbill>beneficiarioCBIL</cbill>
+	<data/>
+	<numero_cc_postale>123456789012</numero_cc_postale>
+	<intestatario_conto_corrente_postale>NOME INTESTATARIO CONTO CORRENTE POSTALE </intestatario_conto_corrente_postale>
+	<autorizzazione>AUT. DB/XXXX/XXX XXXXX 
+ DEL XX/XX/XXXX</autorizzazione>
 </bollettino>

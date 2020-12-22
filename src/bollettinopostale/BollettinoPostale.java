@@ -1,5 +1,6 @@
 package bollettinopostale;
 
+import java.lang.String;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -36,12 +37,12 @@ public class BollettinoPostale {
     File xsltConfFile = new File("bollettino.xconf");
     String nomeFile = codiceAvviso;
     try {
-      BarCodeUtils.createQR("ci mettiamo una bella stringa inutile", "barcode/qrcode_" + nomeFile + ".jpg", 50, 50);
+      BarCodeUtils.createQR("ci mettiamo una bella stringa inutile", "barcode/qrcode_" + nomeFile + ".jpg", 80, 80);
     } catch (Exception e) {
       throw new RuntimeException(e);
     } 
     try {
-      BarCodeUtils.createDataMatrix("ci mettiamo una bella stringa inutile", "barcode/datamatrix_" + nomeFile + ".jpg", 50, 50);
+      BarCodeUtils.createDataMatrix("ci mettiamo una bella stringa inutile", "barcode/datamatrix_" + nomeFile + ".jpg", 52, 52);
     } catch (Exception e) {
       throw new RuntimeException(e);
     } 

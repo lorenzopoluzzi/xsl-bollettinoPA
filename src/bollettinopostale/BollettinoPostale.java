@@ -37,12 +37,13 @@ public class BollettinoPostale {
     File xsltConfFile = new File("bollettino.xconf");
     String nomeFile = codiceAvviso;
     try {
-      BarCodeUtils.createQR("ci mettiamo una bella stringa inutile", "barcode/qrcode_" + nomeFile + ".jpg", 80, 80);
+      BarCodeUtils.createQR("PAGOPA|002|330161072745098448|80184430587|2000001.0|", "barcode/qrcode_" + nomeFile + ".jpg", 80, 80);
     } catch (Exception e) {
       throw new RuntimeException(e);
     } 
     try {
-      BarCodeUtils.createDataMatrix("ci mettiamo una bella stringa inutile", "barcode/datamatrix_" + nomeFile + ".jpg", 52, 52);
+      BarCodeUtils.createDataMatrix("codfase=NBPA;183301610727450984481200001102601010020000009538961P112345678987999999999999    BENEFICIARIODESCRIZIONE                 /10.00/TXT/DIRITTI DI COPIA                                                                                               A", "barcode/datamatrix_" + nomeFile + "_temp.jpg", 52, 52);
+      ImageUtils.CombineBorders(nomeFile);
     } catch (Exception e) {
       throw new RuntimeException(e);
     } 

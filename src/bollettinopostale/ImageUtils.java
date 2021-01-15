@@ -7,10 +7,6 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-/**
- *
- * @author bruno.cervesi
- */
 public class ImageUtils {
 
     public static void CombineBorders(String nomeFile) throws IOException {
